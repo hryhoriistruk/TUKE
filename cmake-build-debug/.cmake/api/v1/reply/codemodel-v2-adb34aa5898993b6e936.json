@@ -1,0 +1,173 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"childIndexes" : 
+					[
+						1,
+						2
+					],
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-.-Debug-21e2bb9703debc7817a6.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "2.8.9"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						2
+					]
+				},
+				{
+					"build" : "doc/examples",
+					"jsonFile" : "directory-doc.examples-Debug-1732796fa85d0c964092.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "2.8.9"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "doc/examples",
+					"targetIndexes" : 
+					[
+						1,
+						5
+					]
+				},
+				{
+					"build" : "tests",
+					"childIndexes" : 
+					[
+						3,
+						4
+					],
+					"jsonFile" : "directory-tests-Debug-b01f6abb0ab61427ef3b.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "2.8.9"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "tests"
+				},
+				{
+					"build" : "tests/karel",
+					"jsonFile" : "directory-tests.karel-Debug-ed858cf3dd6aad0ffa8f.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "2.8.9"
+					},
+					"parentIndex" : 2,
+					"projectIndex" : 0,
+					"source" : "tests/karel",
+					"targetIndexes" : 
+					[
+						3
+					]
+				},
+				{
+					"build" : "tests/superkarel",
+					"jsonFile" : "directory-tests.superkarel-Debug-c39b9ae5995e041db876.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "2.8.9"
+					},
+					"parentIndex" : 2,
+					"projectIndex" : 0,
+					"source" : "tests/superkarel",
+					"targetIndexes" : 
+					[
+						4
+					]
+				}
+			],
+			"name" : "Debug",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4
+					],
+					"name" : "Karel the Robot C Library",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						5
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "karel::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-karel-Debug-b20712b4426879da12f8.json",
+					"name" : "karel",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "stairs::@a644e134540d2bdf51aa",
+					"jsonFile" : "target-stairs-Debug-55f26fbcc133ad419029.json",
+					"name" : "stairs",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "superkarel::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-superkarel-Debug-f7105c0d76e0e42f6764.json",
+					"name" : "superkarel",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 3,
+					"id" : "test_karel::@a03af0a2ae7e8d4c66d4",
+					"jsonFile" : "target-test_karel-Debug-a17ed5b0b5c898531af3.json",
+					"name" : "test_karel",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 4,
+					"id" : "test_superkarel::@34b39bc8b00e9882d5d9",
+					"jsonFile" : "target-test_superkarel-Debug-c0fad6711c2c8009f4f5.json",
+					"name" : "test_superkarel",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "training::@a644e134540d2bdf51aa",
+					"jsonFile" : "target-training-Debug-cf392fcc46a344fb10a5.json",
+					"name" : "training",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "/Users/grigorii/CLionProjects/karel-the-robot/cmake-build-debug",
+		"source" : "/Users/grigorii/CLionProjects/karel-the-robot"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 7
+	}
+}
