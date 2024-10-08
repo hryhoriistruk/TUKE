@@ -9,16 +9,25 @@ void turn_right() {
     turn_left();
 }
 
-void climb_stairs_and_pick_beeper() {
+void climb_to_highest_step_and_pick_beeper() {
     while (front_is_clear()) {
         move();
         if (beepers_present()) {
             pick_beeper();
         }
     }
-}
-
-void climb_stairs_and_drop_beeper() {
+    while (!facing_north()) {
+        turn_left();
+    }
+    while (front_is_clear()) {
+        move();
+        if (beepers_present()) {
+            pick_beeper();
+        }
+    }
+    while (!facing_south()) {
+        turn_left();
+    }
     while (front_is_clear()) {
         move();
         if (beepers_present()) {
@@ -31,14 +40,7 @@ void climb_stairs_and_drop_beeper() {
 }
 
 int main() {
-    climb_stairs_and_pick_beeper();
-    turn_left();
-    climb_stairs_and_pick_beeper();
-    turn_left();
-    climb_stairs_and_pick_beeper();
-    turn_left();
-    climb_stairs_and_pick_beeper();
-    climb_stairs_and_drop_beeper();
+    climb_to_highest_step_and_pick_beeper();
 
     return 0;
 }
